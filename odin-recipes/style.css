@@ -15,21 +15,58 @@ img{
     margin: auto;
     align-items: center;
     justify-content: center;
-    border: 30px dashed black;
+    border: 7px dashed black;
 }
 h1{
+    display: flex;
     font: bold;
     font-size: 50px;
     height: 30px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#img1{
-    border: 5px inset white;
+.menu-container{
+    display: flex;
+    background-color: rgb(104, 103, 103);
+    justify-content: center;
+    height: 40px;
 }
-#img2{
-    border: 4px dashed white;
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
 }
-#img3{
-    border: 4px double white;
+.gallery,
+.signup,
+.login{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.head-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    max-height: fit-content;
+}
+.loger{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.bottom-container{
+    display: flex;
+    justify-content: center;
+}
+.links{
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    gap: 30px;
 }
