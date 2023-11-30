@@ -23,6 +23,10 @@ h1{
     justify-content: flex-end;
     padding-bottom: 10px;
 }
+.no-link{
+    text-decoration: none;
+    color: black;
+}
 img{
     display: flex;
     height: 400px;

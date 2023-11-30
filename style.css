@@ -17,6 +17,9 @@ img{
     justify-content: center;
     border: 7px dashed black;
 }
+.no-link{
+    text-decoration: none;
+}
 h1{
     display: flex;
     font: bold;
